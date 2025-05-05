@@ -1,0 +1,6 @@
+number = [66 , 78 , 99 , 1 , 34 , 9 , 33]:
+count = len(number)
+while count > 0:
+...     print(number[count-1])
+...     count -= 1
+
