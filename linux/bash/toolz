@@ -1,2 +1,32 @@
-ggg
+if (test $1 == "?")
+then printf "Hello to my toolz\n"
+     printf "Options \n"
+     printf "[-f] Find command\n"
+     printf "[-s] System Information\n"
+     printf "[-p] Process Management\n"
+     printf "[-u] User Management\n"
+     printf "[-h] Help System\n"
+fi
+#read -p "What you need? , type your answer:" var1
 
+if (test $1 == "-f")
+    then read -p "are you looking for file or directory? f/d: \n" varf
+    if (test $varf == "f")
+    then 
+fi
+
+if (test $1 == "-s")
+    then printf "ssss\n"
+fi
+
+if (test $1 == "-p")
+    then printf "ppppp\n"
+fi
+
+if (test $1 == "-u")
+    then printf "uuuuu\n"
+fi
+
+if (test $1 == "-h")
+    then printf "Help is on the way\n"
+fi
