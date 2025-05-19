@@ -10,9 +10,10 @@ fi
 #read -p "What you need? , type your answer:" var1
 
 if (test $1 == "-f")
-    then read -p "are you looking for file or directory? f/d: \n" varf
-    if (test $varf == "f")
-    then 
+then printf "ffff\n"
+  #  then read -p "are you looking for file or directory? f/d: \n" varf
+  #  if (test $varf == "f")
+   # then 
 fi
 
 if (test $1 == "-s")
